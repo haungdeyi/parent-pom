@@ -78,6 +78,13 @@
       <version>${spring-version}</version>
     </dependency>
 
+    <!-- spring-tx : 事务管理-->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>${spring-version}</version>
+    </dependency>
+
     <!-- 项目使用mysql数据库 -->
     <dependency>
       <groupId>mysql</groupId>
