@@ -19,6 +19,7 @@
   <!--统一管理jar包的版本-->
   <properties>
     <spring-version>4.3.12.RELEASE</spring-version>
+    <jackson-version>2.9.8</jackson-version>
   </properties>
 
   <dependencies>
@@ -83,6 +84,23 @@
       <groupId>org.springframework</groupId>
       <artifactId>spring-jdbc</artifactId>
       <version>${spring-version}</version>
+    </dependency>
+
+    <!-- jackson : json数据转换-->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>${jackson-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>${jackson-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>${jackson-version}</version>
     </dependency>
 
     <!--引入spring与异步消息的整合包-->
