@@ -4,6 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <!--为啥需要有一个子模块才能作为其他maven项目的父模块？？？-->
   <groupId>com.huangdeyi.distributed</groupId>
   <artifactId>parent-pom</artifactId>
   <packaging>pom</packaging>
@@ -129,7 +130,7 @@
       <version>${spring-version}</version>
     </dependency>
 
-    <!--异步消息使用的连接池-->
+    <!--异步消息、jedis使用的连接池-->
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-pool2</artifactId>
